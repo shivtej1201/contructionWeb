@@ -1,0 +1,126 @@
+
+.philosophy_section {
+    width: 100%;
+    float: left;
+}
+
+.philosophy_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #191919;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.philosophy_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #090a0b;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.philosophy_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.image_7 {
+    width: 100%;
+    float: left;
+}
+
+.philosophy_box {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.philosophy_box_main {
+    width: 85%;
+    float: left;
+    margin-left: 100px;
+    border: 2px solid #6e6d6a;
+    padding: 0px 20px 20px 50px;
+}
+
+.philosophy_left {
+    width: 30%;
+    float: left;
+}
+
+.philosophy_right {
+    width: 70%;
+    float: left;
+}
+
+.number_text {
+    width: 55%;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    background-color: #e8531f;
+    color: #fffcf4;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.quick_text {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #090a0b;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.image_6 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.reader_text {
+    width: 100%;
+    float: left;
+    color: #fffcf4;
+    font-size: 26px;
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+}
+
+#my_slider .carousel-control-prev:hover,
+#my_slider .carousel-control-next:hover,
+#my_slider .carousel-control-prev:focus,
+#my_slider .carousel-control-next:focus {
+    background-color: #e8531f;
+    color: #ffffff;
+}
+
+#my_slider a.carousel-control-prev {
+    position: absolute;
+    left: 87px;
+    top: 45%;
+    background-color: #e8531f;
+}
+
+#my_slider a.carousel-control-next {
+    position: absolute;
+    right: 87px;
+    top: 45%;
+}
+
+#my_slider .carousel-control-prev,
+#my_slider .carousel-control-next {
+    width: 68px;
+    height: 68px;
+    background: #e8531f;
+    opacity: 1;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 100%;
+}

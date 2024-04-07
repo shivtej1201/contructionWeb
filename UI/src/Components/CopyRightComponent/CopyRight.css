@@ -1,0 +1,31 @@
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #e8531f;
+    height: auto;
+}
+
+.copyright_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 0px;
+}
+
+.copyright_text a {
+    color: #ffffff;
+}
+
+.copyright_text a:hover {
+    color: #000;
+}
+
+.margin_top_90 {
+    margin-top: 90px;
+}
+
+.margin_90 {
+    margin: 90px 0px;
+}

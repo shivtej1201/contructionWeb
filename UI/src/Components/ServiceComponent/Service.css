@@ -1,0 +1,144 @@
+.services_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.services_section:after {
+    content: '';
+    position: absolute;
+    background-color: #efefef;
+    width: 630px;
+    height: 600px;
+    border-radius: 520px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -1;
+}
+
+.services_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+.services_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #090a0b;
+    text-align: center;
+    margin: 0px;
+}
+
+.services_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.box_main {
+    width: 100%;
+    float: left;
+}
+
+.box_left {
+    width: 35%;
+    float: left;
+}
+
+.box_middle {
+    width: 27%;
+    float: left;
+    margin: 0px 15px;
+}
+
+.see_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.see_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #e8531f;
+    padding: 8px 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.see_bt a:hover {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+.padding_10 {
+    padding: 20px 20px;
+    width: 100%;
+    float: left;
+}
+
+.box_right {
+    width: 35%;
+    float: left;
+}
+
+.box_left_main {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.icon_1 {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #090a0b;
+    font-weight: 600;
+    text-transform: uppercase;
+    min-height: 60px;
+}
+
+.padding_left_10 {
+    padding-left: 10px;
+}
+
+.long_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #090a0b;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.image_2 {
+    width: 35%;
+    float: left;
+    top: -35px;
+    position: absolute;
+}
+
+.box_left_one {
+    width: 35%;
+    float: left;
+}
+
+.box_right_one {
+    width: 65%;
+    float: left;
+    padding: 20px 0px 20px 20px;
+}

@@ -1,0 +1,63 @@
+.project_section {
+    width: 100%;
+    float: left;
+}
+
+.project_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #191919;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.project_menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.project_menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.project_menu li {
+    float: left;
+    font-size: 18px;
+    color: #202020;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+
+.project_menu li a {
+    color: #202020;
+    padding: 10px 15px;
+}
+
+.project_menu li a:hover {
+    color: #ffffff;
+    background-color: #e8531f;
+}
+
+.project_menu li.active a {
+    color: #ffffff;
+    background-color: #e8531f;
+}
+
+.project_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.image_3 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}

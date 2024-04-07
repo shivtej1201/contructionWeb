@@ -1,0 +1,93 @@
+.header_section {
+    width: 100%;
+    float: left;
+    background-image: url(../../../public/assets/images/banner-bg.png);
+    height: auto;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-light {
+    background-color: #021239 !important;
+}
+
+.navbar {
+    padding: .5rem 100px;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    margin-right: 155px;
+    position: relative;
+    top: 55px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #fffcf4;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e8531f;
+}
+#dropdownMenuButtonAdmin{
+    position: relative;
+    /* bottom: 2px; */
+    right: 5px;
+    font-size: 18px;
+}
+#dropdownMenuButtonUser{
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+    font-size: 20px;
+}
+#userHeading{
+    font-style: italic;
+    font-weight: 500;
+    color: #edc107;
+    font-size: 20px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#AdminHeading{
+    font-style: italic;
+    font-weight: 1200;
+    font-size: xx-large;
+    color: #edc107;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+0%   {color:#edc107; left:0px; top:0px;}
+25%  {color:rgb(154, 154, 17); left:20px; top:0px;}
+50%  {color:rgb(101, 110, 20); left:20px; top:20px;}
+75%  {color:rgb(159, 228, 39); left:0px; top:20px;}
+100% {color:rgb(206, 189, 5); left:0px; top:0px;}
+}
+#hover-a :hover{
+    background-color: #edc107;
+    padding: 5px;
+    margin: 7px; 
+     border-radius: 20px; 
+    text-transform: capitalize;
+
+}
+a{
+    text-transform: capitalize;
+}

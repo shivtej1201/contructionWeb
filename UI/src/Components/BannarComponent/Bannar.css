@@ -1,0 +1,107 @@
+
+.banner_section {
+    width: 100%;
+    float: left;
+    background-image: url(../../../public/assets/images/banner-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    font-size: 66px;
+    color: #fffcf4;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.btn_main {
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 127px;
+}
+
+.more_bt {
+    width: 200px;
+    float: left;
+}
+
+.more_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.more_bt a:hover {
+    color: #ffffff;
+    background-color: #e8531f;
+}
+
+.contact_bt {
+    width: 200px;
+    float: left;
+    margin-left: 15px;
+}
+
+.contact_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.contact_bt a:hover {
+    color: #ffffff;
+    background-color: #e8531f;
+}
+
+.contact_bt.active a {
+    color: #ffffff;
+    background-color: #e8531f;
+}
+
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+    background-color: #e8531f;
+    color: #ffffff;
+}
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 1030px;
+    top: 67%;
+    background-color: #e8531f;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    right: 170px;
+    top: 67%;
+}
+
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+    width: 68px;
+    height: 68px;
+    background: #111111;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 100%;
+}
